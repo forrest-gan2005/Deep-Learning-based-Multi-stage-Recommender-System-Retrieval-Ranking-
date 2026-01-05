@@ -10,4 +10,4 @@ data/processed/
 *.dat
 *.csv
 
-.DS_Store
+.DS_Storebuild/
