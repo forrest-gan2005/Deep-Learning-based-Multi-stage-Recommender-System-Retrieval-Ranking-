@@ -11,7 +11,7 @@ class MovieLensDataset(Dataset):
         self.features = df[['userId', 'movieId']].values.astype('int64')
         
         # Convert rating to binary label
-        self.labels = (df['rating'.values] >= 4).astype('float32')
+        self.labels = (df['rating'].values >= 4).astype('float32')
         
     def __len__(self):
         return len(self.labels)
