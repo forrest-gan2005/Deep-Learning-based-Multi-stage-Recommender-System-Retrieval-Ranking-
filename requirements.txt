@@ -1,0 +1,20 @@
+# Core Data Processing Libraries
+pandas>=2.0.0
+numpy>=1.23.0
+
+# Machine Learning & Deep Learning Frameworks
+torch>=2.0.0      # PyTorch Core
+torchvision
+torchaudio
+
+# Model Training Utilities & Evaluation Metrics
+scikit-learn>=1.0.0  # Used for dataset splitting and AUC/log-loss calculation
+tqdm                # Progress bar utility for training loops
+
+# Data Visualization (Feature distribution analysis)
+matplotlib
+seaborn
+
+# Web Services (Python API for C++ inference calls in Stage 3)
+fastapi
+uvicorn
